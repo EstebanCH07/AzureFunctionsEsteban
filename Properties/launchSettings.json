@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AzureFunctionEsteban": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7014"
+    }
+  }
+}
