@@ -21,7 +21,7 @@ namespace AzureFunctionEsteban.Functions
 
 		[Function("GetBeers")]
 		public async Task<HttpResponseData> Run(
-			[HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "beers")] HttpRequestData req)
+			[HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "beersss")] HttpRequestData req)
 		{
 			_logger.LogInformation("Obteniendo la lista de cervezas...");
 
